@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F6B0A7F1-4BCC-453D-AD2F-BC4BD16ABADD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{ABDBBEA1-3DC9-473D-B4C3-2476D67FE968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste.WebApi", "src\API\Teste.WebApi\Teste.WebApi.csproj", "{CAF5FDE6-D879-4CC1-8691-56A09266DB63}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Teste.Angular", "src\WebApps\Teste.Angular\Teste.Angular.esproj", "{F3677A41-00FB-49C7-AEF3-6F9CF540CB19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAF5FDE6-D879-4CC1-8691-56A09266DB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF5FDE6-D879-4CC1-8691-56A09266DB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF5FDE6-D879-4CC1-8691-56A09266DB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF5FDE6-D879-4CC1-8691-56A09266DB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3677A41-00FB-49C7-AEF3-6F9CF540CB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3677A41-00FB-49C7-AEF3-6F9CF540CB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3677A41-00FB-49C7-AEF3-6F9CF540CB19}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F3677A41-00FB-49C7-AEF3-6F9CF540CB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3677A41-00FB-49C7-AEF3-6F9CF540CB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3677A41-00FB-49C7-AEF3-6F9CF540CB19}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAF5FDE6-D879-4CC1-8691-56A09266DB63} = {F6B0A7F1-4BCC-453D-AD2F-BC4BD16ABADD}
+		{F3677A41-00FB-49C7-AEF3-6F9CF540CB19} = {ABDBBEA1-3DC9-473D-B4C3-2476D67FE968}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F886A1F-04A5-460F-8292-685E282184BD}
+	EndGlobalSection
+EndGlobal
