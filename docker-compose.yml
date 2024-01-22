@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  teste.webapi:
+    image: ${DOCKER_REGISTRY-}testewebapi
+    build:
+      context: .
+      dockerfile: src/API/Teste.WebApi/Dockerfile

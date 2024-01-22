@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste.WebApi", "src\API\Tes
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Teste.Angular", "src\WebApps\Teste.Angular\Teste.Angular.esproj", "{F3677A41-00FB-49C7-AEF3-6F9CF540CB19}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6654AAAD-57E2-4143-8AF0-168DE2479CEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F3677A41-00FB-49C7-AEF3-6F9CF540CB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3677A41-00FB-49C7-AEF3-6F9CF540CB19}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3677A41-00FB-49C7-AEF3-6F9CF540CB19}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6654AAAD-57E2-4143-8AF0-168DE2479CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6654AAAD-57E2-4143-8AF0-168DE2479CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6654AAAD-57E2-4143-8AF0-168DE2479CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6654AAAD-57E2-4143-8AF0-168DE2479CEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
